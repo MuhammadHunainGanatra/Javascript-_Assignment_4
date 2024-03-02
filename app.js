@@ -1,0 +1,25 @@
+var rule=("Rules for naming");
+var js=(" JS ");
+var variable=(" Variable ");
+document.write(rule , js , variable );
+document.write("<br/>" );
+
+var legal1=("My_variable ");
+var legal2=("$my_variable ");
+var legal3=("_my_variable ");
+var legal4=("My_variable_example ");
+var legal5=("myVariableExample ");
+document.write(legal1,legal2,legal3,legal4,legal5);
+document.write("<br/>" );
+var unlegal1=("1my_example ");
+var unlegal2=("@my_variable ");
+var unlegal3=("++my_variable ");
+var unlegal4=("#my_variable ");
+var unlegal5=("%my_variable ");
+document.write(unlegal1,unlegal2,unlegal3,unlegal4,unlegal5);
+document.write("<br/>" );
+document.write("Variable names can only contain,numbers,$ and_.Forexample:$my_1stvariable ");
+document.write("<br/>" );
+document.write("Variable names are case sensitive");
+document.write("<br/>" );
+document.write("Variable names should not be JS keyords");
